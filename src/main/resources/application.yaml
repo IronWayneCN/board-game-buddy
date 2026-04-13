@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: board-game-buddy
+  ai:
+    deepseek:
+      api-key: ${SPRING_AI_DEEPSEEK_API_KEY}
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          temperature: 0.7
+          model: deepseek-chat
+          max-tokens: 2048
